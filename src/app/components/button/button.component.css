@@ -1,0 +1,14 @@
+.nrml-Btn {
+    background-color: rgb(188, 193, 189);
+    color: black;
+    margin-right: 1rem;
+    padding: 1rem;
+    border-radius: 2.5em;
+    border: none;
+    width: 112px;
+    cursor: pointer;
+}
+
+.nrml-Btn:hover {
+    background-color: rgb(99, 101, 100);
+}
