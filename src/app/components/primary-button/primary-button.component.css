@@ -1,0 +1,14 @@
+.prime-Btn {
+    background-color: blue;
+    color: white;
+    margin-right: 1rem;
+    padding: 1rem;
+    border-radius: 2.5em;
+    border: none;
+    width: 112px;
+    cursor: pointer;
+}
+
+.prime-Btn:hover {
+    opacity: 70%;
+}
