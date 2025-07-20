@@ -1,0 +1,5 @@
+<div class="grid-Padding-8 grid-Display grid-Columns-2 grid-Gap-4">
+    @for (product of products(); track product.id) {
+        <app-product-card [product]="product"></app-product-card>
+    }
+</div>

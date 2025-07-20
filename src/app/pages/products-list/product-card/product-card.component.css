@@ -1,0 +1,85 @@
+.card-BackGrnd-white {
+    background-color: #ffffff;
+}
+
+.card-Shadow {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+.card-Border {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(229 231 235);
+}
+
+.rounded-Border-1 {
+    border-radius: 0.75rem;
+}
+
+.card-Padding-6 {
+    padding: 1.5rem;
+}
+
+.card-Flex-Col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-Gap-6 {
+    gap: 1.5rem;
+}
+
+.rel {
+    position: relative;
+}
+
+.card-Img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.con-Center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.txt-Med {
+    font-size: 1rem;
+}
+
+.txt-Bold {
+    font-weight: 700;
+}
+
+.mar-Top {
+    margin-top: 5px;
+}
+
+.abslt {
+    position: absolute;
+}
+
+.tp2 {
+    top: 0.5rem;
+}
+
+.rght2 {
+    right: 0.75rem;
+}
+
+.txt-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.txt-Grn {
+    color: green;
+}
+
+.txt-Rd {
+    color: red;
+}
+
