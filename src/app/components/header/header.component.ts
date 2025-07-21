@@ -1,6 +1,7 @@
 import {Component, inject, signal} from '@angular/core';
 import {RouterLink} from '@angular/router';
 import { PrimaryButtonComponent } from '../primary-button/primary-button.component';
+import { CartService } from '../../services/cart.service';
 
 @Component({
     selector: 'app-header',
@@ -10,4 +11,6 @@ import { PrimaryButtonComponent } from '../primary-button/primary-button.compone
 })
 export class HeaderComponent {
     title = signal('Angular Ecommerce');
+    
+    cartService = inject(CartService)
 }

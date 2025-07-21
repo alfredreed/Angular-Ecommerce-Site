@@ -5,10 +5,10 @@ import { Product } from '../models/products.models';
   providedIn: 'root'
 })
 export class CartService {
-    cart = signal<Product[]>([]);
+  cart = signal<Product[]>([]);
     
-    addToCart(product: Product) {
-    this.cart.set([...this.cart(), product]);
+  addToCart(product: Product) {
+  this.cart.set([...this.cart(), product]);
   }
 
   removeFromCart(id: number) {

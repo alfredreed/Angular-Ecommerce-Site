@@ -1,0 +1,63 @@
+.bckGrnd-white {
+    background-color: #ffffff;
+}
+
+.bx-Shadow {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+.bx-Border {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(229 231 235);
+}
+
+.rnd-Border-1 {
+    border-radius: 0.75rem;
+}
+
+.bx-Padding-6 {
+    /* ( 6 * 0.25rem = 1.5rem ) */
+    padding: 1.5rem;
+}
+
+.bx-Flex {
+    display: flex;
+}
+
+.bx-Flex-Col {
+    flex-direction: column;
+}
+
+.gp-6 {
+    gap: 1.5rem;
+}
+
+.cart-Img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.txt-Med {
+    /* 16px */
+    font-size: 1rem;
+}
+
+.txt-Bold {
+    font-weight: 700;
+}
+
+.txt-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.mrgn-Lft-10 {
+    margin-left: 10px;
+}
+
+.flex-1 {
+    flex: 1 1 0%;
+}
